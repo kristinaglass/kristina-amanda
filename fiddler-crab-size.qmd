@@ -17,3 +17,8 @@ View(pie_crab)
 ggplot(pie_crab, aes(x = water_temp, y = size)) +
   geom_jitter()
 ```
+
+```{r}
+ggplot(pie_crab, aes(x = air_temp, y = water_temp)) +
+  geom_line()
+```
